@@ -4,26 +4,51 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"product-photo-full"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
 				"fig",
-				"figcaption\tTag"
+				"figure\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
 			],
 			[
 				"hea",
 				"header\tTag"
-			],
-			[
-				"h",
-				"h1\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "shop.html",
 			"settings":
 			{
-				"buffer_size": 307,
+				"buffer_size": 5015,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "item.html",
+			"settings":
+			{
+				"buffer_size": 3346,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -42,7 +67,11 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
 			]
 		],
 		"width": 0.0
@@ -71,8 +100,12 @@
 	],
 	"file_history":
 	[
-		"/C/Prog/Study/HTML-CSS/Specialist/labs/index.html",
 		"/C/Prog/Study/HTML-CSS/Academy/barbershop/index.html",
+		"/C/Prog/Study/HTML-CSS/Academy/barbershop/.editorconfig",
+		"/C/Users/Yuriy/AppData/Roaming/Sublime Text 3/Packages/UnicodeCharacterInsert/Default.sublime-keymap",
+		"/C/Prog/Study/HTML-CSS/Academy/barbershop/img/README",
+		"/C/Prog/Study/HTML-CSS/Academy/barbershop/.gitignore",
+		"/C/Prog/Study/HTML-CSS/Specialist/labs/index.html",
 		"/C/Users/Yuriy/.lesshst",
 		"/C/Users/Yuriy/.gitconfig",
 		"/C/Prog/Study/HTML-CSS/Academy/device/Readme.md",
@@ -87,7 +120,6 @@
 		"/C/Prog/Study/Git/git_tutorial/work/hello/index.html",
 		"/C/Prog/Study/HTML-CSS/Academy/101840-device/.gitignore",
 		"/C/Prog/Study/HTML-CSS/Academy/101840-device/.git/config",
-		"/C/Prog/Study/HTML-CSS/Academy/barbershop/.editorconfig",
 		"/C/Prog/Study/HTML-CSS/Academy/853773-barbershop/Readme.md",
 		"/C/Prog/Study/HTML-CSS/Academy/853773-barbershop/index.html",
 		"/C/Users/Yuriy/AppData/Local/Temp/_tc/701085-device-master/.editorconfig",
@@ -112,7 +144,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -126,6 +158,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -133,6 +166,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -143,32 +177,62 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": true,
+					"file": "shop.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 5015,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								1525,
+								1623
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "item.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1695,
+								1695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -179,11 +243,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -212,11 +276,15 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 183.0
+	},
 	"pinned_build_system": "",
 	"project": "HTML-CSS-barbershop.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 82.0
 	},
 	"save_all_on_build": true,
 	"select_file":
